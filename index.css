@@ -1,0 +1,54 @@
+.myclass {
+  color: #FF8000;
+}
+.myclass1 {
+  color: #5882FA;
+}
+.class1 {
+  background-color: #2d5e8b;
+}
+.class1 .class2 {
+  color: #2d5e8b;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  background: #455868;
+  border-bottom: 2px solid #283744;
+}
+nav li {
+  width: 600px;
+  height: 40px;
+}
+nav li a {
+  color: #fff;
+  line-height: 40px;
+  text-shadow: 1px 1px 0px #283744;
+}
+a {
+  color: #fff;
+  line-height: 40px;
+  text-shadow: 1px 1px 0px #283744;
+}
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+.bordered {
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+#menu a {
+  color: #111;
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+.post a {
+  color: red;
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
+.button {
+  color: blue;
+  border: 1px solid green;
+}

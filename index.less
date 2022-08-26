@@ -1,0 +1,56 @@
+@import "http://www.tutorialspoint.com/less/myfile.less";
+@color-base: #2d5e8b;
+.class1 {
+  background-color: @color-base;
+  .class2 {
+    color: @color-base;
+  }
+}
+nav {
+    height: 40px;
+    width: 100%;
+    background: #455868;
+    border-bottom: 2px solid #283744;
+    li {
+      width: 600px;
+      height: 40px;
+      a {
+        color: #fff;
+        line-height: 40px;
+        text-shadow: 1px 1px 0px #283744;
+      }
+    }
+  }
+  a {
+    color: #fff;
+    line-height: 40px;
+    text-shadow: 1px 1px 0px #283744;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  .bordered {
+    border-top: dotted 1px black;
+    border-bottom: solid 2px black;
+  }
+  #menu a {
+    color: #111;
+    .bordered();
+  }
+  
+  .post a {
+    color: red;
+    .bordered();
+  }
+  // map
+  #colors() {
+    primary: blue;
+    secondary: green;
+  }
+  
+  .button {
+    color: #colors[primary];
+    border: 1px solid #colors[secondary];
+  }
+  
